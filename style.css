@@ -1,4 +1,22 @@
-.bg {
-    background-color: aqua;
+.menu-item .menu-item-hover a:hover {
+    color: #0dcaf0;
+    transition: 0.8s;
+}
+
+.top-overlay {
+    position: relative;
+    font-size: 10px;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: #080808;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.slider-title {
+    margin-bottom: 140px;
 
 }
