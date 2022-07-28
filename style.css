@@ -3,18 +3,6 @@
     transition: 0.8s;
 }
 
-.top-overlay {
-    position: relative;
-    font-size: 10px;
-}
-
-.overlay {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    opacity: 0.8;
-}
-
 .carousel-caption {
     top: 40%;
 }
@@ -28,17 +16,33 @@
     font-size: 20px;
 }
 
-@media only screen and (max-width:768px) {
+.work-heading h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width:992px) {
     .carousel-caption {
-        top: 10%;
+        top: 30%;
     }
 
     .carousel-caption h5 {
-        font-size: 28px;
+        font-size: 55px;
     }
 
     .carousel-caption p {
         font-size: 16px;
+    }
+
+    .work-heading h2 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .work-heading .work-details {
+        width: 90%;
+        height: 100px;
+        overflow: hidden;
     }
 
     .accordion-items {
@@ -57,6 +61,11 @@
 
     .carousel-caption p {
         font-size: 14px;
+    }
+
+    .work-space {
+        display: flex;
+        flex-direction: column;
     }
 
 
